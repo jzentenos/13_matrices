@@ -10,5 +10,12 @@ int main(){
 			cout<<"Elemento ["<<i<<"]["<<j<<"]: "; cin>>A[i][j];
 		}
 	}
+	cout<<"Matriz de orden "<<n<<endl;
+	for(int i=0; i<n; i++){
+		for(int j=0; j<n; j++){
+			cout<<A[i][j]<<" ";
+		}
+		cout<<endl;
+	}
 	return 0;
 }	
