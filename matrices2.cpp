@@ -17,5 +17,10 @@ int main(){
 		}
 		cout<<endl;
 	}
+	int s=0;
+	for(int i=0; i<n; i++){
+		s+=A[i][n-1-i];
+	}
+	cout<<"Suma de los elementos de la diagonal secundaria: "<<s;
 	return 0;
 }	
